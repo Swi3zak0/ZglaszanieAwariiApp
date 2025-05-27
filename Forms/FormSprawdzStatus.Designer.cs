@@ -28,12 +28,68 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FormSprawdzStatus";
+            lblInfo = new Label();
+            txtId = new TextBox();
+            btnSprawdz = new Button();
+            lblWynik = new Label();
+            SuspendLayout();
+            // 
+            // lblInfo
+            // 
+            lblInfo.AutoSize = true;
+            lblInfo.Location = new Point(316, 17);
+            lblInfo.Name = "lblInfo";
+            lblInfo.Size = new Size(111, 15);
+            lblInfo.TabIndex = 0;
+            lblInfo.Text = "Wprowadź ID awarii";
+            // 
+            // txtId
+            // 
+            txtId.Location = new Point(290, 35);
+            txtId.Name = "txtId";
+            txtId.Size = new Size(163, 23);
+            txtId.TabIndex = 1;
+            // 
+            // btnSprawdz
+            // 
+            btnSprawdz.Location = new Point(634, 352);
+            btnSprawdz.Name = "btnSprawdz";
+            btnSprawdz.Size = new Size(154, 86);
+            btnSprawdz.TabIndex = 2;
+            btnSprawdz.Text = "Sprawdź";
+            btnSprawdz.UseVisualStyleBackColor = true;
+            btnSprawdz.Click += btnSprawdz_Click;
+            // 
+            // lblWynik
+            // 
+            lblWynik.AutoSize = true;
+            lblWynik.Location = new Point(27, 132);
+            lblWynik.Name = "lblWynik";
+            lblWynik.Size = new Size(67, 15);
+            lblWynik.TabIndex = 3;
+            lblWynik.Text = "Tutaj wynik";
+            lblWynik.Click += label1_Click;
+            // 
+            // FormSprawdzStatus
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(lblWynik);
+            Controls.Add(btnSprawdz);
+            Controls.Add(txtId);
+            Controls.Add(lblInfo);
+            Name = "FormSprawdzStatus";
+            Text = "FormSprawdzStatus";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lblInfo;
+        private TextBox txtId;
+        private Button btnSprawdz;
+        private Label lblWynik;
     }
 }
