@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ZglaszanieAwariiApp.Models
 {
-    internal class Awarie
+    public class Awarie
     {
+        public int Id { get; set; }
+        public string Opis { get; set; }
+        public string Kategoria { get; set; }
+        public DateTime DataZgloszenia { get; set; }
+        public StatusAwarii Status { get; set; }
+        public Uzytkownik Zglaszajacy { get; set; }
     }
 }

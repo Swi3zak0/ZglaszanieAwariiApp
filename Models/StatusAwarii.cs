@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ZglaszanieAwariiApp.Models
 {
-    internal class StatusAwarii
+    public enum StatusAwarii
     {
+        Nowe,
+        WTrakcie,
+        Zakonczone
     }
 }
