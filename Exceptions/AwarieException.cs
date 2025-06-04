@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ZglaszanieAwariiApp.Exceptions
 {
-    internal class AwarieException
+    public class AwarieException : Exception
     {
+        public AwarieException(string message) : base(message) { }
     }
 }

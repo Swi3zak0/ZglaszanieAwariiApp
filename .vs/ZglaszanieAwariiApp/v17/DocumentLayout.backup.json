@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\services\\zarzadzanieawariami.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:services\\zarzadzanieawariami.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\forms\\formlistaawarii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:forms\\formlistaawarii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\forms\\formzgloszenie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:forms\\formzgloszenie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\forms\\formzgloszenie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:forms\\formzgloszenie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\forms\\formsprawdzstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:forms\\formsprawdzstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\forms\\formsprawdzstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:forms\\formsprawdzstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\forms\\formlistaawarii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:forms\\formlistaawarii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\exceptions\\awarieexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:exceptions\\awarieexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\models\\awarie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:models\\awarie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\models\\statusawarii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:models\\statusawarii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\models\\uzytkownik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:models\\uzytkownik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|d:\\projekty\\zpo\\zglaszanieawariiapp\\config\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB0D0C1-8532-4D4D-97DC-16FCFD3965B9}|ZglaszanieAwariiApp.csproj|solutionrelative:config\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:21:27.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormZgloszenie.cs",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\FormZgloszenie.cs",
+              "RelativeDocumentMoniker": "Forms\\FormZgloszenie.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\FormZgloszenie.cs",
+              "RelativeToolTip": "Forms\\FormZgloszenie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:20:49.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormZgloszenie.cs [Projekt]",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\FormZgloszenie.cs",
+              "RelativeDocumentMoniker": "Forms\\FormZgloszenie.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\FormZgloszenie.cs [Projekt]",
+              "RelativeToolTip": "Forms\\FormZgloszenie.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:20:48.793Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Projekt]",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "Forms\\MainForm.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\MainForm.cs [Projekt]",
+              "RelativeToolTip": "Forms\\MainForm.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:44:43.8Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "Forms\\MainForm.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\MainForm.cs",
+              "RelativeToolTip": "Forms\\MainForm.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:02:26.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ZarzadzanieAwariami.cs",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Services\\ZarzadzanieAwariami.cs",
+              "RelativeDocumentMoniker": "Services\\ZarzadzanieAwariami.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Services\\ZarzadzanieAwariami.cs",
+              "RelativeToolTip": "Services\\ZarzadzanieAwariami.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:10:13.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormSprawdzStatus.cs",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\FormSprawdzStatus.cs",
+              "RelativeDocumentMoniker": "Forms\\FormSprawdzStatus.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\FormSprawdzStatus.cs",
+              "RelativeToolTip": "Forms\\FormSprawdzStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:20:47.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormSprawdzStatus.cs [Projekt]",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\FormSprawdzStatus.cs",
+              "RelativeDocumentMoniker": "Forms\\FormSprawdzStatus.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\FormSprawdzStatus.cs [Projekt]",
+              "RelativeToolTip": "Forms\\FormSprawdzStatus.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:20:45.668Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormListaAwarii.cs [Projekt]",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\FormListaAwarii.cs",
+              "RelativeDocumentMoniker": "Forms\\FormListaAwarii.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\FormListaAwarii.cs [Projekt]",
+              "RelativeToolTip": "Forms\\FormListaAwarii.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:19:57.718Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormListaAwarii.cs",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\FormListaAwarii.cs",
+              "RelativeDocumentMoniker": "Forms\\FormListaAwarii.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Forms\\FormListaAwarii.cs",
+              "RelativeToolTip": "Forms\\FormListaAwarii.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:20:44.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AwarieException.cs",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Exceptions\\AwarieException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\AwarieException.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Exceptions\\AwarieException.cs",
+              "RelativeToolTip": "Exceptions\\AwarieException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:10:40.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Config.cs",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Config\\Config.cs",
+              "RelativeDocumentMoniker": "Config\\Config.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Config\\Config.cs",
+              "RelativeToolTip": "Config\\Config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:08:31.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Uzytkownik.cs",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Models\\Uzytkownik.cs",
+              "RelativeDocumentMoniker": "Models\\Uzytkownik.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Models\\Uzytkownik.cs",
+              "RelativeToolTip": "Models\\Uzytkownik.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:08:24.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StatusAwarii.cs",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Models\\StatusAwarii.cs",
+              "RelativeDocumentMoniker": "Models\\StatusAwarii.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Models\\StatusAwarii.cs",
+              "RelativeToolTip": "Models\\StatusAwarii.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:08:11.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Awarie.cs",
+              "DocumentMoniker": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Models\\Awarie.cs",
+              "RelativeDocumentMoniker": "Models\\Awarie.cs",
+              "ToolTip": "D:\\PROJEKTY\\ZPO\\ZglaszanieAwariiApp\\Models\\Awarie.cs",
+              "RelativeToolTip": "Models\\Awarie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T21:08:01.585Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -32,14 +32,14 @@ namespace ZglaszanieAwariiApp.Forms
         private void btnListaAwarii_Click(object sender, EventArgs e)
         {
             {
-                new FormZgloszenie().ShowDialog();
+                new FormListaAwarii().ShowDialog();
             }
         }
 
         private void btnSprawdzStatus_Click(object sender, EventArgs e)
         {
             {
-                new FormZgloszenie().ShowDialog();
+                new FormSprawdzStatus().ShowDialog();
             }
         }
     }
