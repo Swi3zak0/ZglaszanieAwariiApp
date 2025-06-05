@@ -14,5 +14,7 @@ namespace ZglaszanieAwariiApp.Models
         public DateTime DataZgloszenia { get; set; }
         public StatusAwarii Status { get; set; }
         public Uzytkownik Zglaszajacy { get; set; }
+        public string NumerBudynku { get; set; }
+        public string Pietro { get; set; }
     }
 }

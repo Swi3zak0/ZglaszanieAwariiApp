@@ -33,6 +33,7 @@
             cmbFiltr = new ComboBox();
             btnZmienStatus = new Button();
             btnClearFiltr = new Button();
+            btnZamknij = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvLista).BeginInit();
             SuspendLayout();
             // 
@@ -69,6 +70,7 @@
             // 
             // btnZmienStatus
             // 
+            btnZmienStatus.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             btnZmienStatus.Location = new Point(300, 359);
             btnZmienStatus.Name = "btnZmienStatus";
             btnZmienStatus.Size = new Size(203, 54);
@@ -87,11 +89,23 @@
             btnClearFiltr.UseVisualStyleBackColor = true;
             btnClearFiltr.Click += btnClearFiltr_Click;
             // 
+            // btnZamknij
+            // 
+            btnZamknij.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnZamknij.Location = new Point(558, 22);
+            btnZamknij.Name = "btnZamknij";
+            btnZamknij.Size = new Size(203, 54);
+            btnZamknij.TabIndex = 5;
+            btnZamknij.Text = "Zamknij";
+            btnZamknij.UseVisualStyleBackColor = true;
+            btnZamknij.Click += btnZamknij_Click;
+            // 
             // FormListaAwarii
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnZamknij);
             Controls.Add(btnClearFiltr);
             Controls.Add(btnZmienStatus);
             Controls.Add(cmbFiltr);
@@ -112,5 +126,6 @@
         private ComboBox cmbFiltr;
         private Button btnZmienStatus;
         private Button btnClearFiltr;
+        private Button btnZamknij;
     }
 }

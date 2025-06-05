@@ -104,8 +104,12 @@ namespace ZglaszanieAwariiApp.Forms
         private void btnClearFiltr_Click(object sender, EventArgs e)
         {
             cmbFiltr.SelectedIndex = -1;
-            dgvLista.DataSource = null;
-            dgvLista.DataSource = listaAwarii;
+            WczytajDane();
+        }
+
+        private void btnZamknij_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

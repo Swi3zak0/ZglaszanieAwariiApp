@@ -32,6 +32,7 @@
             txtId = new TextBox();
             btnSprawdz = new Button();
             lblWynik = new Label();
+            btnZamknij = new Button();
             SuspendLayout();
             // 
             // lblInfo
@@ -52,6 +53,7 @@
             // 
             // btnSprawdz
             // 
+            btnSprawdz.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             btnSprawdz.Location = new Point(634, 352);
             btnSprawdz.Name = "btnSprawdz";
             btnSprawdz.Size = new Size(154, 86);
@@ -70,11 +72,23 @@
             lblWynik.Text = "Tutaj wynik";
             lblWynik.Click += label1_Click;
             // 
+            // btnZamknij
+            // 
+            btnZamknij.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnZamknij.Location = new Point(474, 352);
+            btnZamknij.Name = "btnZamknij";
+            btnZamknij.Size = new Size(154, 86);
+            btnZamknij.TabIndex = 4;
+            btnZamknij.Text = "Zamknij";
+            btnZamknij.UseVisualStyleBackColor = true;
+            btnZamknij.Click += btnZamknij_Click;
+            // 
             // FormSprawdzStatus
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnZamknij);
             Controls.Add(lblWynik);
             Controls.Add(btnSprawdz);
             Controls.Add(txtId);
@@ -91,5 +105,6 @@
         private TextBox txtId;
         private Button btnSprawdz;
         private Label lblWynik;
+        private Button btnZamknij;
     }
 }

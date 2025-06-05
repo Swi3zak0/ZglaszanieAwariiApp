@@ -29,16 +29,19 @@
         private void InitializeComponent()
         {
             txtOpis = new TextBox();
-            txtKategoria = new TextBox();
             txtUzytkownik = new TextBox();
             txtEmail = new TextBox();
             lblOpis = new Label();
             lblKategoria = new Label();
             label1 = new Label();
             lblEmail = new Label();
-            lblStatus = new Label();
-            cmbStatus = new ComboBox();
             btnDodaj = new Button();
+            btnZamknij = new Button();
+            lblNumerBudynku = new Label();
+            lblPietro = new Label();
+            txtNumerBudynku = new TextBox();
+            txtPietro = new TextBox();
+            cmbKategoria = new ComboBox();
             SuspendLayout();
             // 
             // txtOpis
@@ -48,13 +51,6 @@
             txtOpis.Name = "txtOpis";
             txtOpis.Size = new Size(284, 134);
             txtOpis.TabIndex = 0;
-            // 
-            // txtKategoria
-            // 
-            txtKategoria.Location = new Point(12, 121);
-            txtKategoria.Name = "txtKategoria";
-            txtKategoria.Size = new Size(284, 23);
-            txtKategoria.TabIndex = 1;
             // 
             // txtUzytkownik
             // 
@@ -106,25 +102,9 @@
             lblEmail.TabIndex = 8;
             lblEmail.Text = "E-mail zgłaszającego";
             // 
-            // lblStatus
-            // 
-            lblStatus.AutoSize = true;
-            lblStatus.Location = new Point(587, 15);
-            lblStatus.Name = "lblStatus";
-            lblStatus.Size = new Size(75, 15);
-            lblStatus.TabIndex = 9;
-            lblStatus.Text = "Status Awarii";
-            // 
-            // cmbStatus
-            // 
-            cmbStatus.FormattingEnabled = true;
-            cmbStatus.Location = new Point(587, 33);
-            cmbStatus.Name = "cmbStatus";
-            cmbStatus.Size = new Size(201, 23);
-            cmbStatus.TabIndex = 10;
-            // 
             // btnDodaj
             // 
+            btnDodaj.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             btnDodaj.Location = new Point(636, 335);
             btnDodaj.Name = "btnDodaj";
             btnDodaj.Size = new Size(152, 103);
@@ -133,24 +113,81 @@
             btnDodaj.UseVisualStyleBackColor = true;
             btnDodaj.Click += btnDodaj_Click;
             // 
+            // btnZamknij
+            // 
+            btnZamknij.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnZamknij.Location = new Point(466, 335);
+            btnZamknij.Name = "btnZamknij";
+            btnZamknij.Size = new Size(152, 103);
+            btnZamknij.TabIndex = 12;
+            btnZamknij.Text = "Zamknij";
+            btnZamknij.UseVisualStyleBackColor = true;
+            btnZamknij.Click += btnZamknij_Click;
+            // 
+            // lblNumerBudynku
+            // 
+            lblNumerBudynku.AutoSize = true;
+            lblNumerBudynku.Location = new Point(466, 15);
+            lblNumerBudynku.Name = "lblNumerBudynku";
+            lblNumerBudynku.Size = new Size(94, 15);
+            lblNumerBudynku.TabIndex = 13;
+            lblNumerBudynku.Text = "Numer Budynku";
+            // 
+            // lblPietro
+            // 
+            lblPietro.AutoSize = true;
+            lblPietro.Location = new Point(466, 59);
+            lblPietro.Name = "lblPietro";
+            lblPietro.Size = new Size(38, 15);
+            lblPietro.TabIndex = 14;
+            lblPietro.Text = "Piętro";
+            // 
+            // txtNumerBudynku
+            // 
+            txtNumerBudynku.Location = new Point(466, 33);
+            txtNumerBudynku.Name = "txtNumerBudynku";
+            txtNumerBudynku.Size = new Size(185, 23);
+            txtNumerBudynku.TabIndex = 15;
+            // 
+            // txtPietro
+            // 
+            txtPietro.Location = new Point(466, 77);
+            txtPietro.Name = "txtPietro";
+            txtPietro.Size = new Size(185, 23);
+            txtPietro.TabIndex = 16;
+            // 
+            // cmbKategoria
+            // 
+            cmbKategoria.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbKategoria.FormattingEnabled = true;
+            cmbKategoria.Location = new Point(12, 121);
+            cmbKategoria.Name = "cmbKategoria";
+            cmbKategoria.Size = new Size(284, 23);
+            cmbKategoria.Sorted = true;
+            cmbKategoria.TabIndex = 17;
+            // 
             // FormZgloszenie
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(cmbKategoria);
+            Controls.Add(txtPietro);
+            Controls.Add(txtNumerBudynku);
+            Controls.Add(lblPietro);
+            Controls.Add(lblNumerBudynku);
+            Controls.Add(btnZamknij);
             Controls.Add(btnDodaj);
-            Controls.Add(cmbStatus);
-            Controls.Add(lblStatus);
             Controls.Add(lblEmail);
             Controls.Add(label1);
             Controls.Add(lblKategoria);
             Controls.Add(lblOpis);
             Controls.Add(txtEmail);
             Controls.Add(txtUzytkownik);
-            Controls.Add(txtKategoria);
             Controls.Add(txtOpis);
             Name = "FormZgloszenie";
             Text = "FormZgloszenie";
+            Load += FormZgloszenie_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -158,15 +195,18 @@
         #endregion
 
         private TextBox txtOpis;
-        private TextBox txtKategoria;
         private TextBox txtUzytkownik;
         private TextBox txtEmail;
         private Label lblOpis;
         private Label lblKategoria;
         private Label label1;
         private Label lblEmail;
-        private Label lblStatus;
-        private ComboBox cmbStatus;
         private Button btnDodaj;
+        private Button btnZamknij;
+        private Label lblNumerBudynku;
+        private Label lblPietro;
+        private TextBox txtNumerBudynku;
+        private TextBox txtPietro;
+        private ComboBox cmbKategoria;
     }
 }

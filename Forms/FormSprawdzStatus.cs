@@ -50,5 +50,10 @@ namespace ZglaszanieAwariiApp.Forms
                 lblWynik.Text = $"Nie znaleziono awarii o ID {id}.";
             }
         }
+
+        private void btnZamknij_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

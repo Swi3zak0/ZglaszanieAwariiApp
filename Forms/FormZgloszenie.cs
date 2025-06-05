@@ -18,24 +18,40 @@ namespace ZglaszanieAwariiApp.Forms
         public FormZgloszenie()
         {
             InitializeComponent();
-            cmbStatus.DataSource = Enum.GetValues(typeof(StatusAwarii));
-            cmbStatus.SelectedItem = StatusAwarii.Nowe;
         }
 
         private void btnDodaj_Click(object sender, EventArgs e)
         {
             try
             {
+                if (string.IsNullOrWhiteSpace(txtOpis.Text) || string.IsNullOrWhiteSpace(cmbKategoria.Text) || string.IsNullOrWhiteSpace(txtUzytkownik.Text) || string.IsNullOrWhiteSpace(txtEmail.Text))
+                {
+                    MessageBox.Show("Wszystkie pola muszą być wypełnione.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                if (!txtEmail.Text.Contains("@") || !txtEmail.Text.Contains("."))
+                {
+                    MessageBox.Show("Podaj poprawny adres e-mail.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                if (string.IsNullOrWhiteSpace(txtNumerBudynku.Text) || string.IsNullOrWhiteSpace(txtPietro.Text))
+                {
+                    MessageBox.Show("Uzupełnij numer budynku i piętro.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
                 var awaria = new Awarie
                 {
                     Opis = txtOpis.Text,
-                    Kategoria = txtKategoria.Text,
-                    Status = (StatusAwarii)cmbStatus.SelectedItem,
+                    Kategoria = cmbKategoria.SelectedItem.ToString(),
+                    Status = StatusAwarii.Nowe,
+                    Pietro = txtPietro.Text,
+                    NumerBudynku = txtNumerBudynku.Text,
                     Zglaszajacy = new Uzytkownik
                     {
                         Id = 1,
                         Imie = txtUzytkownik.Text,
-                        Email = "brak@wp.pl"
+                        Email = txtEmail.Text,
                     }
                 };
 
@@ -48,14 +64,39 @@ namespace ZglaszanieAwariiApp.Forms
 
                 MessageBox.Show("Awaria zgłoszona!");
                 txtOpis.Clear();
-                txtKategoria.Clear();
                 txtUzytkownik.Clear();
-                cmbStatus.SelectedItem = StatusAwarii.Nowe;
+                txtEmail.Clear();
+                txtPietro.Clear();
+                txtNumerBudynku.Clear();
+                cmbKategoria.SelectedIndex = -1;
             }
             catch (AwarieException ex)
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void btnZamknij_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void FormZgloszenie_Load(object sender, EventArgs e)
+        {
+            cmbKategoria.Items.AddRange(new string[]
+            {
+                "Awaria sieci",
+                "Problemy z komputerem",
+                "Brak dostępu do Internetu",
+                "Awaria drukarki",
+                "Problem z aplikacją",
+                "Błąd systemu operacyjnego",
+                "Zgłoszenie nowego sprzętu",
+                "Awaria poczty e-mail",
+                "Zgłoszenie incydentu bezpieczeństwa",
+                "Problem z dostępem do systemu",
+                "Inne"
+            });
         }
     }
 }
