@@ -131,6 +131,7 @@
             btnDodaj.TabIndex = 11;
             btnDodaj.Text = "Zgłoś";
             btnDodaj.UseVisualStyleBackColor = true;
+            btnDodaj.Click += btnDodaj_Click;
             // 
             // FormZgloszenie
             // 

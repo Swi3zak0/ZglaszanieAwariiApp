@@ -11,5 +11,9 @@ namespace ZglaszanieAwariiApp.Models
         public int Id { get; set; }
         public string Imie { get; set; }
         public string Email { get; set; }
+        public override string ToString()
+        {
+            return $"{Imie}";
+        }
     }
 }

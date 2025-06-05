@@ -32,6 +32,7 @@
             lblFiltruj = new Label();
             cmbFiltr = new ComboBox();
             btnZmienStatus = new Button();
+            btnClearFiltr = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvLista).BeginInit();
             SuspendLayout();
             // 
@@ -40,9 +41,9 @@
             dgvLista.AllowUserToAddRows = false;
             dgvLista.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             dgvLista.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvLista.EditMode = DataGridViewEditMode.EditOnEnter;
             dgvLista.Location = new Point(28, 93);
             dgvLista.Name = "dgvLista";
-            dgvLista.ReadOnly = true;
             dgvLista.RowTemplate.Height = 25;
             dgvLista.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvLista.Size = new Size(746, 249);
@@ -75,11 +76,21 @@
             btnZmienStatus.Text = "Zmień status";
             btnZmienStatus.UseVisualStyleBackColor = true;
             // 
+            // btnClearFiltr
+            // 
+            btnClearFiltr.Location = new Point(261, 52);
+            btnClearFiltr.Name = "btnClearFiltr";
+            btnClearFiltr.Size = new Size(89, 23);
+            btnClearFiltr.TabIndex = 4;
+            btnClearFiltr.Text = "Wyczyść Filtr";
+            btnClearFiltr.UseVisualStyleBackColor = true;
+            // 
             // FormListaAwarii
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnClearFiltr);
             Controls.Add(btnZmienStatus);
             Controls.Add(cmbFiltr);
             Controls.Add(lblFiltruj);
@@ -97,5 +108,6 @@
         private Label lblFiltruj;
         private ComboBox cmbFiltr;
         private Button btnZmienStatus;
+        private Button btnClearFiltr;
     }
 }

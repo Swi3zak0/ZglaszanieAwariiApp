@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Opis": "",
+    "Kategoria": "",
+    "DataZgloszenia": "2025-06-05T00:13:44.0407322+02:00",
+    "Status": 1,
+    "Zglaszajacy": {
+      "Id": 1,
+      "Imie": "",
+      "Email": "brak@example.com"
+    }
+  },
+  {
+    "Id": 2,
+    "Opis": "test",
+    "Kategoria": "test",
+    "DataZgloszenia": "2025-06-05T00:13:48.1950916+02:00",
+    "Status": 2,
+    "Zglaszajacy": {
+      "Id": 1,
+      "Imie": "test",
+      "Email": "brak@example.com"
+    }
+  },
+  {
+    "Id": 3,
+    "Opis": "test",
+    "Kategoria": "asdasd",
+    "DataZgloszenia": "2025-06-05T20:50:06.0795843+02:00",
+    "Status": 0,
+    "Zglaszajacy": {
+      "Id": 1,
+      "Imie": "Patryk",
+      "Email": "brak@example.com"
+    }
+  },
+  {
+    "Id": 4,
+    "Opis": "",
+    "Kategoria": "",
+    "DataZgloszenia": "2025-06-05T20:51:29.781959+02:00",
+    "Status": 0,
+    "Zglaszajacy": {
+      "Id": 1,
+      "Imie": "",
+      "Email": "brak@example.com"
+    }
+  },
+  {
+    "Id": 5,
+    "Opis": "te",
+    "Kategoria": "te",
+    "DataZgloszenia": "2025-06-05T21:14:30.3729227+02:00",
+    "Status": 0,
+    "Zglaszajacy": {
+      "Id": 1,
+      "Imie": "te",
+      "Email": "brak@example.com"
+    }
+  }
+]

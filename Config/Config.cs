@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace ZglaszanieAwariiApp.Config
 {
-    internal class Config
+    public class Config
     {
+        private static Config _instance;
+        public string SciezkaPliku { get; private set; }
+
+        private Config()
+        {
+            SciezkaPliku = "awarie.json";
+        }
+
+        public static Config GetInstance()
+        {
+            return _instance ??= new Config();
+        }
     }
 }
+
