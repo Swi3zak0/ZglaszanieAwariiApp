@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZglaszanieAwariiApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05de94aea092cd35c14978914a4f7c60fed168ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61ad4964e47cba3f905ee698ce3ab9d8a18db104")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZglaszanieAwariiApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZglaszanieAwariiApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -58,5 +58,17 @@
       "Imie": "te",
       "Email": "brak@example.com"
     }
+  },
+  {
+    "Id": 6,
+    "Opis": "zepsuta drukarka",
+    "Kategoria": "IT",
+    "DataZgloszenia": "2025-06-05T22:15:42.4972507+02:00",
+    "Status": 0,
+    "Zglaszajacy": {
+      "Id": 1,
+      "Imie": "Patryk",
+      "Email": "brak@wp.pl"
+    }
   }
 ]

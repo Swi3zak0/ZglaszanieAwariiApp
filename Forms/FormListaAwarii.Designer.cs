@@ -75,6 +75,7 @@
             btnZmienStatus.TabIndex = 3;
             btnZmienStatus.Text = "Zmień status";
             btnZmienStatus.UseVisualStyleBackColor = true;
+            btnZmienStatus.Click += btnZmienStatus_Click;
             // 
             // btnClearFiltr
             // 
@@ -84,6 +85,7 @@
             btnClearFiltr.TabIndex = 4;
             btnClearFiltr.Text = "Wyczyść Filtr";
             btnClearFiltr.UseVisualStyleBackColor = true;
+            btnClearFiltr.Click += btnClearFiltr_Click;
             // 
             // FormListaAwarii
             // 
@@ -97,6 +99,7 @@
             Controls.Add(dgvLista);
             Name = "FormListaAwarii";
             Text = "FormListaAwarii";
+            Load += FormListaAwarii_Load;
             ((System.ComponentModel.ISupportInitialize)dgvLista).EndInit();
             ResumeLayout(false);
             PerformLayout();

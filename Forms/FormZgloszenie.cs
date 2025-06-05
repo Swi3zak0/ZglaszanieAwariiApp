@@ -35,7 +35,7 @@ namespace ZglaszanieAwariiApp.Forms
                     {
                         Id = 1,
                         Imie = txtUzytkownik.Text,
-                        Email = "brak@example.com"
+                        Email = "brak@wp.pl"
                     }
                 };
 
