@@ -21,21 +21,21 @@ namespace ZglaszanieAwariiApp.Forms
         {
 
         }
-
+        // Przeniesienie po kliknięciu do formularza Zgłaszania Awarii
         private void btnZglosAwarie_Click(object sender, EventArgs e)
         {
             {
                 new FormZgloszenie().ShowDialog();
             }
         }
-
+        // Przeniesienie po kliknięciu do formularza Wyświetlania Wszystkich Awarii
         private void btnListaAwarii_Click(object sender, EventArgs e)
         {
             {
                 new FormListaAwarii().ShowDialog();
             }
         }
-
+        // Przeniesienie po kliknięciu do formularza Sprawdzenia Statusu Awarii
         private void btnSprawdzStatus_Click(object sender, EventArgs e)
         {
             {

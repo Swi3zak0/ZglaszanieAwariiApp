@@ -24,22 +24,25 @@ namespace ZglaszanieAwariiApp.Forms
         {
             try
             {
+                // Sprawdzanie czy wszystkie pola zostały wypełnione
                 if (string.IsNullOrWhiteSpace(txtOpis.Text) || string.IsNullOrWhiteSpace(cmbKategoria.Text) || string.IsNullOrWhiteSpace(txtUzytkownik.Text) || string.IsNullOrWhiteSpace(txtEmail.Text))
                 {
                     MessageBox.Show("Wszystkie pola muszą być wypełnione.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
-
+                // Sprawdzenie czy email został wprowadzony w poprawnym formacie
                 if (!txtEmail.Text.Contains("@") || !txtEmail.Text.Contains("."))
                 {
                     MessageBox.Show("Podaj poprawny adres e-mail.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
+                // Sprawdzanie czy dodatkowe informacje odnosnie budynku i piętra zostały wprowadzone
                 if (string.IsNullOrWhiteSpace(txtNumerBudynku.Text) || string.IsNullOrWhiteSpace(txtPietro.Text))
                 {
                     MessageBox.Show("Uzupełnij numer budynku i piętro.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
+                // Tworzenie obiektu awarii na podstawie danych z formularza
                 var awaria = new Awarie
                 {
                     Opis = txtOpis.Text,
@@ -54,7 +57,7 @@ namespace ZglaszanieAwariiApp.Forms
                         Email = txtEmail.Text,
                     }
                 };
-
+                // Wczytanie danych, przypisanie ID, dodanie nowej awarii i zapis do pliku
                 var dane = new ZarzadzanieDanymi(Config.Config.GetInstance().SciezkaPliku);
                 var lista = dane.Wczytaj();
                 awaria.Id = lista.Count + 1;
@@ -63,6 +66,7 @@ namespace ZglaszanieAwariiApp.Forms
                 dane.Zapisz(lista);
 
                 MessageBox.Show("Awaria zgłoszona!");
+                // Czyszczenie pól formularza po dodaniu zgłoszenia
                 txtOpis.Clear();
                 txtUzytkownik.Clear();
                 txtEmail.Clear();
@@ -70,6 +74,7 @@ namespace ZglaszanieAwariiApp.Forms
                 txtNumerBudynku.Clear();
                 cmbKategoria.SelectedIndex = -1;
             }
+            // Wyłapywanie errorów
             catch (AwarieException ex)
             {
                 MessageBox.Show(ex.Message);
@@ -80,9 +85,9 @@ namespace ZglaszanieAwariiApp.Forms
         {
             this.Close();
         }
-
         private void FormZgloszenie_Load(object sender, EventArgs e)
         {
+                    // Wypełnienie listy rozwijanej z kategoriami - na sztywno
             cmbKategoria.Items.AddRange(new string[]
             {
                 "Awaria sieci",

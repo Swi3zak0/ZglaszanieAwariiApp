@@ -10,12 +10,12 @@ namespace ZglaszanieAwariiApp.Config
     {
         private static Config _instance;
         public string SciezkaPliku { get; private set; }
-
+        // Prywatny konstruktor – wymusza użycie singletona
         private Config()
         {
             SciezkaPliku = "awarie.json";
         }
-
+        // Zwraca instancję singletona Config
         public static Config GetInstance()
         {
             return _instance ??= new Config();

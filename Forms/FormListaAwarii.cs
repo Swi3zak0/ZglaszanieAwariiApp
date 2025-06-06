@@ -25,11 +25,12 @@ namespace ZglaszanieAwariiApp.Forms
         private void FormListaAwarii_Load(object sender, EventArgs e)
         {
             WczytajDane();
-            cmbFiltr.DataSource = Enum.GetValues(typeof(StatusAwarii));
+            cmbFiltr.DataSource = Enum.GetValues(typeof(StatusAwarii)); // źródło danych dla filtra
             cmbFiltr.SelectedIndex = -1;
-            cmbFiltr.SelectedIndexChanged += cmbFiltr_SelectedIndexChanged;
+            cmbFiltr.SelectedIndexChanged += cmbFiltr_SelectedIndexChanged; // obsługę zmiany filtra
         }
 
+        // Wczytuje dane awarii i ustawia kolumny w DataGridView
         private void WczytajDane()
         {
             var zarzadzanieDanymi = new ZarzadzanieDanymi(Config.Config.GetInstance().SciezkaPliku);
@@ -63,7 +64,7 @@ namespace ZglaszanieAwariiApp.Forms
                 HeaderText = "Data zgłoszenia",
                 ReadOnly = true
             });
-
+            // Kolumna z rozwijanym wyborem statusu
             var comboStatus = new DataGridViewComboBoxColumn
             {
                 DataPropertyName = "Status",
@@ -72,20 +73,22 @@ namespace ZglaszanieAwariiApp.Forms
                 DataSource = Enum.GetValues(typeof(StatusAwarii)),
                 DisplayStyle = DataGridViewComboBoxDisplayStyle.DropDownButton,
                 FlatStyle = FlatStyle.Flat,
-                ReadOnly = false
+                ReadOnly = false // Możliwość edytowania, pozostałe zablokowane
             };
             dgvLista.Columns.Add(comboStatus);
 
-            dgvLista.DataSource = listaAwarii;
+            dgvLista.DataSource = listaAwarii; // Przypisanie danych do wyświetlenia w liście
         }
+        // Obsługa kliknięcia przycisku + zapisanie danych do pliku json
         private void btnZmienStatus_Click(object sender, EventArgs e)
         {
-            dgvLista.EndEdit();
+            dgvLista.EndEdit(); // Zakończenie edycji komórki 
             var zarzadzanieDanymi = new ZarzadzanieDanymi(Config.Config.GetInstance().SciezkaPliku);
             zarzadzanieDanymi.Zapisz(listaAwarii);
 
             MessageBox.Show("Statusy zostały zaktualizowane.", "Zapisano", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+        // Obsługuje zmianę wybranego statusu w filtrze — filtruje dane
         private void cmbFiltr_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cmbFiltr.SelectedItem == null)
@@ -98,13 +101,13 @@ namespace ZglaszanieAwariiApp.Forms
                 .ToList();
 
             dgvLista.DataSource = null;
-            dgvLista.DataSource = przefiltrowanaLista;
+            dgvLista.DataSource = przefiltrowanaLista; // Przypisanie przefiltrowanych danych
         }
-
+        // Obsługuje kliknięcie przycisku — resetuje widok do pełnej listy
         private void btnClearFiltr_Click(object sender, EventArgs e)
         {
-            cmbFiltr.SelectedIndex = -1;
-            WczytajDane();
+            cmbFiltr.SelectedIndex = -1; // reset filtrów
+            WczytajDane(); // odświeżenie danych
         }
 
         private void btnZamknij_Click(object sender, EventArgs e)
