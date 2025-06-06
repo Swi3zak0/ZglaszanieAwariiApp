@@ -1,44 +1,30 @@
 [
   {
     "Id": 1,
-    "Opis": "niedzia\u0142aj\u0105ca drukarka",
-    "Kategoria": "IT",
-    "DataZgloszenia": "2025-06-05T22:36:00.0603828+02:00",
-    "Status": 1,
-    "Zglaszajacy": {
-      "Id": 1,
-      "Imie": "Patryk",
-      "Email": "brak@wp.pl"
-    },
-    "NumerBudynku": null,
-    "Pietro": null
-  },
-  {
-    "Id": 2,
-    "Opis": "test",
-    "Kategoria": "test",
-    "DataZgloszenia": "2025-06-05T22:37:23.8213388+02:00",
+    "Opis": "Brak tuszu",
+    "Kategoria": "Awaria drukarki",
+    "DataZgloszenia": "2025-06-06T18:23:57.290134+02:00",
     "Status": 0,
     "Zglaszajacy": {
       "Id": 1,
-      "Imie": "test",
-      "Email": "brak@wp.pl"
+      "Imie": "Patryk",
+      "Email": "patryk@gmail.com"
     },
-    "NumerBudynku": null,
-    "Pietro": null
+    "NumerBudynku": "21",
+    "Pietro": "1"
   },
   {
-    "Id": 3,
-    "Opis": "test",
-    "Kategoria": "Awaria poczty e-mail",
-    "DataZgloszenia": "2025-06-05T22:53:55.7061994+02:00",
-    "Status": 2,
+    "Id": 2,
+    "Opis": "Prosz\u0119 o przyznanie nowego komputera",
+    "Kategoria": "Zg\u0142oszenie nowego sprz\u0119tu",
+    "DataZgloszenia": "2025-06-06T18:24:26.9201326+02:00",
+    "Status": 0,
     "Zglaszajacy": {
       "Id": 1,
-      "Imie": "test",
-      "Email": "test@pl.pl"
+      "Imie": "Adam",
+      "Email": "adam.kowalski@gmail.com"
     },
-    "NumerBudynku": "1",
-    "Pietro": "1"
+    "NumerBudynku": "2a",
+    "Pietro": "3"
   }
 ]

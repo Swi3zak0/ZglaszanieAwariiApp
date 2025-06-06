@@ -31,6 +31,7 @@
             btnZglosAwarie = new Button();
             btnListaAwarii = new Button();
             btnSprawdzStatus = new Button();
+            btnZamknij = new Button();
             SuspendLayout();
             // 
             // btnZglosAwarie
@@ -63,11 +64,22 @@
             btnSprawdzStatus.UseVisualStyleBackColor = true;
             btnSprawdzStatus.Click += btnSprawdzStatus_Click;
             // 
+            // btnZamknij
+            // 
+            btnZamknij.Location = new Point(12, 367);
+            btnZamknij.Name = "btnZamknij";
+            btnZamknij.Size = new Size(166, 71);
+            btnZamknij.TabIndex = 3;
+            btnZamknij.Text = "Zamknij";
+            btnZamknij.UseVisualStyleBackColor = true;
+            btnZamknij.Click += btnZamknij_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnZamknij);
             Controls.Add(btnSprawdzStatus);
             Controls.Add(btnListaAwarii);
             Controls.Add(btnZglosAwarie);
@@ -82,5 +94,6 @@
         private Button btnZglosAwarie;
         private Button btnListaAwarii;
         private Button btnSprawdzStatus;
+        private Button btnZamknij;
     }
 }

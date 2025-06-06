@@ -65,7 +65,7 @@ namespace ZglaszanieAwariiApp.Forms
                 lista.Add(awaria);
                 dane.Zapisz(lista);
 
-                MessageBox.Show("Awaria zgłoszona!");
+                MessageBox.Show($"Awaria o ID: {awaria.Id} została zgłoszona!");
                 // Czyszczenie pól formularza po dodaniu zgłoszenia
                 txtOpis.Clear();
                 txtUzytkownik.Clear();

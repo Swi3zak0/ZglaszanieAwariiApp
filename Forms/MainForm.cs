@@ -42,5 +42,10 @@ namespace ZglaszanieAwariiApp.Forms
                 new FormSprawdzStatus().ShowDialog();
             }
         }
+
+        private void btnZamknij_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
